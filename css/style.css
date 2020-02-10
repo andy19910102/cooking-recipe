@@ -1,0 +1,120 @@
+/* TODO: 加入Google fonts Raleway分別載入字重100,400,700 */
+
+/*==================== general ====================*/
+
+body {
+    min-height: 1000px;
+    /* 設定背景圖 */
+    background-image: url('../img/cork-repeat.jpg');
+}
+
+/* TODO: 設定透視 */
+.env {
+
+}
+
+.card {
+    width: 600px;
+    margin: 100px auto;
+}
+
+.card>.upper-section,
+.card>.lower-section {
+    padding: 20px 20px;
+    position: relative;
+}
+
+/*==================== fonts ====================*/
+
+* {
+    color: #333;
+}
+
+.dish-name {
+    font-size: 50px;
+    letter-spacing: 8px;
+    font-weight: 700;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    margin: 0;
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: 100;
+    letter-spacing: 5px;
+    margin: 0
+}
+
+/*==================== upper-section ====================*/
+
+.upper-section {
+    background-color: white;
+    height: 220px;
+    z-index: 5;
+    color: white;
+    /* 設定背景圖 */
+    background-image: url('../img/salmon-steak.jpg');
+    background-size: cover;
+    /* TODO: 預設向後折 */
+    /* TODO: 設定filter屬性控制照片明亮與飽和度 */
+}
+
+.upper-section .text {
+    margin-top: 80px;
+}
+
+.upper-section * {
+    color: white;
+}
+
+.upper-section p {
+    margin: 0;
+}
+
+.price {
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 100;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    /* TODO: 設定預設為透明 */
+}
+
+.price:before {
+  content: "$";
+  margin-right: 8px;
+}
+
+.price:after {
+  content: "NTD";
+  margin-left: 8px;
+}
+
+/*==================== lower-section ====================*/
+
+.lower-section {
+    background-color: white;
+    z-index: 1;
+    /* TODO: 預設向後折 */
+}
+
+.ingredients {
+    padding-left: 0;
+}
+
+.ingredients>li {
+    font-size: 18px;
+    border-bottom: 1px solid #aaa;
+    /* TODO: 設定每個li高度為40px並且垂直置中文字 */
+    /* TODO: 設定滑鼠游標樣式讓使用者知道是可以點選的 */
+    /* cursor樣式可參考: https://codepen.io/andy19910102/pen/MJavYR */
+}
+
+/* TODO: 利用偽元素設計checklist點擊圖樣 */
+
+/*==================== animation ====================*/
+
+/* TODO: 設定.card:hover動畫的transition */
+
+/* TODO: 設定.card:hover後折回的3D動畫 */
+
+/* TODO: 設定.card:hover後顯示price */
