@@ -58,6 +58,7 @@ body {
     background-size: cover;
     /* TODO: 預設向後折 */
     /* TODO: 設定filter屬性控制照片明亮與飽和度 */
+    filter: brightness(1) grayscale(0%);
 }
 
 .upper-section .text {
@@ -111,10 +112,18 @@ body {
 }
 
 /* TODO: 利用偽元素設計checklist點擊圖樣 */
+.ingredients>li:before {
+
+}
 
 /*==================== animation ====================*/
 
-/* TODO: 設定.card:hover動畫的transition */
+/* 設定.card:hover動畫的transition */
+.upper-section,
+.lower-section,
+.price {
+    transition: all .5s ease;
+}
 
 /* TODO: 設定.card:hover後折回的3D動畫 */
 
