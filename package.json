@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/andy19910102/cooking-recipe#readme",
   "dependencies": {
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "normalize.css": "^8.0.1"
   }
 }
